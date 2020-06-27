@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Projekat2017200219/.mvn/wrapper"/>
+	<classpathentry kind="src" path="Projekat2017200219/src/main/java"/>
+	<classpathentry kind="src" path="Projekat2017200219/src/test/java"/>
+	<classpathentry exported="true" kind="lib" path="Projekat2017200219/bin/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="output" path="Projekat2017200219/target/classes"/>
+</classpath>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+
+    <title>Projekat 2017200219</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div id="ko_je_pravio">Marko Nikolić - 2017200219</div>
+        <input type="text" onkeypress="return enter_key(event)">
+        <table id="tabela">
+            <button type="button" onclick="get_ajax()"><i class="fas fa-chevron-right"></i></button>
+            <thead>
+                <tr id="profesori">
+                    <th>Profesor ID</th>
+                    <th>Ime</th>
+                    <th>Prezime</th>
+                    <th>Jmbg ( Matični broj )</th>
+                    <th>Plata</th>
+                    <th>Email</th>
+                </tr>
+                <tr id="predmeti">
+                    <th>ID predmeta</th>
+                    <th>Ime</th>
+                    <th>Godina studiranja</th>
+                    <th>Opis</th>
+                    <th>Profesor ID</th>
+
+                </tr>
+                <tr id="studenti">
+                    <th>ID Studenta</th>
+                    <th>Ime</th>
+                    <th>Prezime</th>
+                    <th>Jmbg</th>
+                    <th>Indeks</th>
+                    <th>Ime predmeta</th>
+                    <th>Fakultet (Smer)</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <br>
+        <p id="json_celo"><br> </p>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
